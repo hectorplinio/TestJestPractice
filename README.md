@@ -15,7 +15,10 @@ _"insertAreaBBDD.js" is a function that checks the state of the DB and after ins
 
 -The last test is and e2e test, first check form of Shape, calculate area of this form and finally add result in DB_.
 
-## Another test
+## GetTime ⏲️
 _Another test that i do is in folder "./getTime" in "getTime.js" have two functions, firt get local hour and return this value and second funtion return you the moment of day where we are_.
 
 _From this test i have unit test and integration test, the test files stay in folder "./__test__", in it I have different tests_.
+
+## CheckMail 📬
+_This example is simpler than others, it's my first test but it's a functional function that you can use more times. That tells you if an email is correct and if the passwords match, ideal for a form_.
