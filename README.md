@@ -14,3 +14,8 @@ _Next step is use a intregration tests to do the check that shape and use the un
 _"insertAreaBBDD.js" is a function that checks the state of the DB and after insert the shape and area into DB_.
 
 -The last test is and e2e test, first check form of Shape, calculate area of this form and finally add result in DB_.
+
+## Another test
+_Another test that i do is in folder "./getTime" in "getTime.js" have two functions, firt get local hour and return this value and second funtion return you the moment of day where we are_.
+
+_From this test i have unit test and integration test, the test files stay in folder "./__test__", in it I have different tests_.
