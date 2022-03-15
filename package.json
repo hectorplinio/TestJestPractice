@@ -4,16 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --verbose"
+    "test": "jest --verbose",
+    "test:debug": "node --inspect node_modules/.bin/jest --runInBand"
   },
   "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "babel-jest": "^27.5.1",
     "jest": "^27.5.1"
   },
   "dependencies": {
+    "axios": "^0.26.1",
     "cross-fetch": "^3.1.5",
     "mongodb": "^4.4.1"
   }
