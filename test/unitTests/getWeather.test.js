@@ -16,10 +16,17 @@ describe('Weather fetch', () => {
     expect(response.status).toBe(400)
   })
 })
-describe('Weather fetch return JSON', () => {
-  test('Pass a city adn return a JSON', async () => {
+describe('Weather fetch ', () => {
+  test('Pass a city adn return a name of city', async () => {
     const response = await fetchWeather('villena')
-    expect(response.status).toBe(200)
-    expect('Content-Type /application/json')
+    expect(response.data.name).toBe('Villena')
+  })
+  test('Pass a city adn return and object', async () => {
+    const response = await fetchWeather('villena')
+    expect(response.data.weather).toMatchObject({})
+  })
+  test('Pass a city adn return and coordenates', async () => {
+    const response = await fetchWeather('villena')
+    expect(response.data.coord).toMatchObject({})
   })
 })
