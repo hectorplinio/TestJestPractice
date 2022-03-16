@@ -8,18 +8,20 @@
 // Calculate the area of ​​a triangle with height 12 and base 20 and the result will be 120
 
 class CalculatorArea {
-  calculatorAreaSquare(side) {
-    if (side) return side * side;
-    return null;
+  calculatorAreaSquare (side) {
+    if (side) return side * side
+    return null
   }
-  calculatorAreaRectangle(side, height) {
-    if (side && height) return side * height;
-    return null;
+
+  calculatorAreaRectangle (side, height) {
+    if (side && height) return side * height
+    return null
   }
-  calculatorAreaTriangle(side, height) {
-    if (side && height) return (side * height) / 2;
-    return null;
+
+  calculatorAreaTriangle (side, height) {
+    if (side && height) return (side * height) / 2
+    return null
   }
 }
 
-module.exports = CalculatorArea;
+module.exports = CalculatorArea

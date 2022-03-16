@@ -1,11 +1,11 @@
 // Return moment of day
 
-const { getTimeAndMoment } = require("../../getTime/integrationMoment");
+const { getTimeAndMoment } = require('../../getTime/integrationMoment')
 
-describe("Get moment of day", () => {
-  test("Return moment of day", () => {
-    const moments = ["afternoon", "morning", "night", "evening"];
-    const getMoment = getTimeAndMoment();
-    expect(moments).toContain(getMoment);
-  });
-});
+describe('Get moment of day', () => {
+  test('Return moment of day', () => {
+    const moments = ['afternoon', 'morning', 'night', 'evening']
+    const getMoment = getTimeAndMoment()
+    expect(moments).toContain(getMoment)
+  })
+})
